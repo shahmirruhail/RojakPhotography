@@ -1,0 +1,26 @@
+h1 {
+    font-family: ALGERIAN;
+    text-align: center;
+    color: coral;
+    font-size: 50px;
+    padding: 25px;
+}
+
+.container {
+    padding: 7px;
+    margin-left: 34px !important;
+    margin-bottom: 34px !important;
+    border-radius: 5px;
+    box-shadow: 7px 7px 7px 7px gray;
+    background-color: transparent;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.col-md-4 img {
+    padding: 3px !important;
+    margin-left: 9px !important;
+    border-radius: 7px !important;
+}

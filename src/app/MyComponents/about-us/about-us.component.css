@@ -1,0 +1,127 @@
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .text {
+        width: 100%;
+        margin-left: 0;
+    }
+    .text p {
+        white-space: normal;
+      }
+      
+    .pdiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .idiv {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .idiv img {
+        width: 80%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .Name p {
+        margin-left: 0;
+    }
+
+    .div {
+        margin-left: 0;
+        padding: 10px;
+    }
+    .div p {
+        width: 100%;
+        box-sizing: border-box; 
+      }
+      
+    .tdiv {
+        padding: 10px;
+    }
+}
+
+.sec1 {
+    /*border: coral dashed 3px;*/
+    width: 100%;
+    height: 1270px;
+
+}
+
+.sec1 h1 {
+    margin-top: 34px;
+    text-align: center;
+    color: coral;
+    font-size: 47px;
+    font-family: ALGERIAN;
+}
+
+.text {
+    width: 75%;
+    height: 270px;
+    /*border:orangered solid 3px;*/
+    margin-left: 120px;
+}
+
+.text p {
+    font-size: 32px;
+    line-height: 47px;
+    text-align: justify;
+    font-family: Brush Script MT;
+}
+
+.pdiv {
+    width: 100%;
+    height: 420px;
+    margin: auto;
+    /* border: dotted yellow 5px;*/
+    text-align: justify;
+}
+
+.idiv {
+    width: 26.5%;
+    height: 400px;
+    margin: auto;
+    float: left;
+    /*border: solid wheat 4px;*/
+}
+
+.idiv img {
+    width: 320px;
+    height: 320px;
+}
+
+.Name {
+    width: 76.5%;
+    height: 41px;
+    /*border:black solid 3px;*/
+    margin: auto;
+}
+
+.Name p {
+    font-size: 23px;
+    font-family: Courier New;
+    margin-left: 14px;
+}
+
+.div {
+    font-size: 36px;
+    color: black;
+    font-family: Brush Script MT;
+    width: 60%;
+    height: 480px;
+    /*border: dashed green 3px;*/
+    line-height: 45px;
+    padding: 14px;
+    margin-left: 360px;
+}
+
+.tdiv {
+    height: 480px;
+    /*border: dashed red 3px;*/
+    line-height: 45px;
+    padding: 14px;
+}

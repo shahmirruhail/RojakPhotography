@@ -1,0 +1,78 @@
+.sec1 {
+    width: 100%;
+    height: 630px;
+    font-family: ALGERIAN;
+    font-size: 32px;
+}
+
+.C_U {
+    /*border:solid black 2px;*/
+    color: coral;
+    text-align: center;
+}
+
+.sec1 form {
+    /*border: black solid 2px;*/
+    font-family: Brush Script MT;
+    margin-left: 441px !important;
+}
+
+.sec2 {
+    /*border: coral dashed 5px;*/
+    height: 230px;
+    width: 100%;
+}
+
+.sec2 h1 {
+    color: coral;
+    font-family: ALGERIAN;
+    font-size: 32px;
+    text-align: center;
+}
+
+.links {
+    font-weight: 700;
+    font-size: 20px;
+    /*line-height: 45px;*/
+    text-align: left;
+    /*border: solid red 5px;*/
+}
+
+.links a {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    line-height: 75px;
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.fb {
+    /*border: red dotted 5px;*/
+    width: 25%;
+    margin: auto;
+    float: left;
+}
+
+.insta {
+    /*border: red dotted 5px;*/
+    width: 25%;
+    margin: auto;
+    float: left;
+}
+
+.P_N {
+    font-size: 20px;
+    line-height: 75px;
+    /*text-align:left;*/
+    color: black;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    /*border: red dotted 5px;*/
+    width: 25%;
+    margin: auto;
+    float: left;
+
+}

@@ -1,0 +1,43 @@
+.sec1 {
+    width: 100%;
+    height: 1050px;
+    background-color: snow;
+    /*border: #C42124 solid 3px;*/
+}
+
+.sec1 marquee {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.sec1 h2 {
+    text-align: center;
+    color: coral;
+    font-family: ALGERIAN;
+    font-size: 30px;
+}
+
+.sec1 ul li {
+    font-family: TAHOMA;
+    font-size: 16px;
+}
+
+.sec1 p {
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wallImg {
+    /*border:black solid 2px;*/
+    margin-top: 9px;
+    width: 100%;
+    /*border-radius: 14px; 
+			box-shadow: 7px 7px 7px 7px gray;*/
+}
+
+.wallImg img {
+    width: 720px;
+    height: 720px;
+    margin-left: 250px;
+    border-radius: 14px;
+    box-shadow: 7px 7px 7px 7px gray;
+}

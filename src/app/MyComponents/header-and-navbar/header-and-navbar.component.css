@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+   /* border: purple solid 3px;*/
+    background-color: orchid;
+    font-family: Courier New;
+    color: antiquewhite;
+    font-size: 25px;
+    margin: 0px;
+    width: 100%;
+}
+
+.parentDiv {
+    margin: auto;
+   /* border: black solid 2px;*/
+    height: 130px;
+    width: 79%;
+}
+
+.logo {
+   /* border: red dashed 2px;*/
+    width: 11%;
+    height: 75px;
+    float: left;
+    padding: 7px;
+    margin-left: 50px !important;
+}
+
+.logo img {
+    width: 100px;
+    height: 95px;
+   /* border: black solid 2px;*/
+    background-color: transparent;
+    margin-left: 61px !important;
+}
+
+.textDiv {
+   /* border: orange dotted 2px;*/
+    width: 70%;
+    margin-top: 25px;
+    float: left;
+    text-align: center;
+}
+
+.rp {
+    font-family: Courier New;
+    font-size: 25px;
+    color: black;
+}
+
+.container-fluid {
+    height: 70px !important;
+}
+
+nav ul li {
+    margin: 34px;
+    padding: 3px;
+    margin-top: 25px !important;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 21px;
+    font-family: Courier New;
+    font-weight: 1400;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 21px;
+    font-family: Courier New;
+    font-weight: 1400;
+    text-decoration: none;
+    margin-left: 60px !important;
+}
+
+nav ul li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Media Query for screens with maximum width of 768px */
+@media (max-width: 768px) {
+    .parentDiv {
+        width: 95%;
+        /* Adjust the width for smaller screens */
+    }
+
+    .logo {
+        width: 30%;
+        /* Adjust the width for smaller screens */
+        float: none;
+        /* Clear the float */
+        text-align: center;
+        /* Center the logo */
+    }
+
+    .textDiv {
+        width: 100%;
+        /* Full width for smaller screens */
+        margin-top: 15px;
+        /* Reduce the top margin */
+    }
+}
+
+.bg-body-tertiary {
+    background-color: coral !important;
+}
