@@ -10,6 +10,9 @@ import { GalleryComponent } from './MyComponents/gallery/gallery.component';
 import { AboutUsComponent } from './MyComponents/about-us/about-us.component';
 import { ContactUsComponent } from './MyComponents/contact-us/contact-us.component';
 
+import { FormResponseService } from './form-response.service';
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,9 +25,10 @@ import { ContactUsComponent } from './MyComponents/contact-us/contact-us.compone
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [FormResponseService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
